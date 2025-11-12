@@ -29,21 +29,21 @@ Include these in Cargo.toml (adjust versions as needed):
 - futures
 
 ## Example .env
-Create a `.env` in the project root with values similar to:
+- Create a `.env` in the project root with values similar to:
 
-RPC_URL=https://rpc.testnet.example
-MNEMONIC="test test test test test test test test test test test junk"
-CHAIN_ID=5
-TOKEN_IN=0xTokenInContractAddressHere
-TOKEN_OUT=0xTokenOutContractAddressHere
-ROUTER=0xRouterContractAddressHere
-AMOUNT_OUT=1000000000000000000    # desired output amount in token minimal units
-AMOUNT_IN_MAX=2000000000000000000 # maximum input amount in token minimal units
-TO=0xYourReceivingAddressHere
-START_INDEX=0
-COUNT=1000
-CONCURRENCY=20
-DEADLINE_OFFSET_SECS=300
+- RPC_URL=https://rpc.testnet.example
+- MNEMONIC="test test test test test test test test test test test junk"
+- CHAIN_ID=5
+- TOKEN_IN=0xTokenInContractAddressHere
+- TOKEN_OUT=0xTokenOutContractAddressHere
+- ROUTER=0xRouterContractAddressHere
+- AMOUNT_OUT=1000000000000000000    # desired output amount in token minimal units
+- AMOUNT_IN_MAX=2000000000000000000 # maximum input amount in token minimal units
+- TO=0xYourReceivingAddressHere
+- START_INDEX=0
+- COUNT=1000
+- CONCURRENCY=20
+- DEADLINE_OFFSET_SECS=300
 
 ## Usage
 1. Fill `.env` with correct values for your testnet environment.
